@@ -24,13 +24,13 @@ body{
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
-	color: #6a708e;
+	color: #FFF;
 	font-size:16px;
 	padding:0;
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
-	color:#43485c;
+	color:#fff;
     font-size: 16px;
 	font-family: 'Poppins', sans-serif;
 	text-transform: capitalize;
@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6 {
 p {
 	margin: 0;
 	line-height:1.8;
-	color:#43485c;
+	color:#fff;
 	font-size:14px;
 	font-family: 'Poppins', sans-serif;
 }
@@ -117,12 +117,13 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
     content: "";
+    color: #fff;
 }
 nav.navbar.bootsnav ul.nav > li.dropdown span {
     font-size: 8px;
     margin-left: 15px;
 }
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#FFF;}
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
 /*.nav li*/
 
